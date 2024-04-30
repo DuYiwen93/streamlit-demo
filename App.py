@@ -61,51 +61,51 @@ st.markdown(
 coll, colr = st.columns(2)
 # Example Image
 with coll:
-    st.video("./materials/1-talk.mp4")
+    st.video("1-talk.mp4")
     st.caption("我也不知道为啥视频的caption加的这么下面但是好像传视频也蛮简单的")
 #st.image(image="./assets/nst.png")
 with colr:
-    st.image("./materials/video/1-gif.gif", caption='我也不知道这是啥但是好像传gif就是这么简单')
+    st.image("1-gif.gif", caption='我也不知道这是啥但是好像传gif就是这么简单')
     # st.video("./materials/video/1-MP4.mp4")
     # st.caption("我也不知道为啥视频的caption加的这么下面但是好像传视频也蛮简单的")
 coll, colr = st.columns(2)
 # Example Image
 with coll:
-    st.video("./materials/2-talk.mp4")
+    st.video("2-talk.mp4")
     st.caption("我也不知道为啥视频的caption加的这么下面但是好像传视频也蛮简单的")
 #st.image(image="./assets/nst.png")
 with colr:
-    st.image("./materials/video/2-gif.gif", caption='我也不知道这是啥但是好像传gif就是这么简单')
+    st.image("2-gif.gif", caption='我也不知道这是啥但是好像传gif就是这么简单')
     # st.video("./materials/video/2-MP4.mp4")
     # st.caption("我也不知道为啥视频的caption加的这么下面但是好像传视频也蛮简单的")
 coll, colr = st.columns(2)
 # Example Image
 with coll:
-    st.video("./materials/3-talk.mp4")
+    st.video("3-talk.mp4")
     st.caption("我也不知道为啥视频的caption加的这么下面但是好像传视频也蛮简单的")
 #st.image(image="./assets/nst.png")
 with colr:
-    st.image("./materials/video/3-gif.gif", caption='我也不知道这是啥但是好像传gif就是这么简单')
+    st.image("3-gif.gif", caption='我也不知道这是啥但是好像传gif就是这么简单')
     # st.video("./materials/video/3-MP4.mp4")
     # st.caption("我也不知道为啥视频的caption加的这么下面但是好像传视频也蛮简单的")
 coll, colr = st.columns(2)
 # Example Image
 with coll:
-    st.video("./materials/4-talk.mp4")
+    st.video("4-talk.mp4")
     st.caption("我也不知道为啥视频的caption加的这么下面但是好像传视频也蛮简单的")
 #st.image(image="./assets/nst.png")
 with colr:
-    st.image("./materials/video/4-gif.gif", caption='我也不知道这是啥但是好像传gif就是这么简单')
+    st.image("4-gif.gif", caption='我也不知道这是啥但是好像传gif就是这么简单')
     # st.video("./materials/video/4-MP4.mp4")
     # st.caption("我也不知道为啥视频的caption加的这么下面但是好像传视频也蛮简单的")
 coll, colr = st.columns(2)
 # Example Image
 with coll:
-    st.video("./materials/5-talk.mp4")
+    st.video("5-talk.mp4")
     st.caption("我也不知道为啥视频的caption加的这么下面但是好像传视频也蛮简单的")
 #st.image(image="./assets/nst.png")
 with colr:
-    st.image("./materials/video/5-gif.gif", caption='我也不知道这是啥但是好像传gif就是这么简单')
+    st.image("5-gif.gif", caption='我也不知道这是啥但是好像传gif就是这么简单')
     # st.video("./materials/video/5-MP4.mp4")
     # st.caption("我也不知道为啥视频的caption加的这么下面但是好像传视频也蛮简单的")
 
