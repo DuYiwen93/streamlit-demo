@@ -7,7 +7,7 @@ from io import BytesIO
 
 
 #这里改标题，page title后面的引号内容是标题，icon里面是网页标志
-st.set_page_config(page_title="PixelMix - Style Transfer",
+st.set_page_config(page_title="The Romance of West Chamber",
                    page_icon="./assets/favicon.png", layout="centered")
 
 # -------------Header Section------------------------------------------------
@@ -123,10 +123,18 @@ with st.sidebar:
     st.image(image="speed-brush.gif")
     st.markdown("</br>", unsafe_allow_html=True)
 
-    st.markdown('<p style="font-size: 25px;font-weight: 550;">王叔晖 🎨</p>',
+    st.markdown('<p style="font-size: 25px;font-weight: 550;">The Story 🎨</p>',
                 unsafe_allow_html=True)
-    st.markdown('王叔晖',
+    st.markdown('The Romance of West Chamber',
                 unsafe_allow_html=True)
+    st.caption("The story of “The West Chamber” originated from Yuan Zhen's legendary novel “The Legend of Yingying” in the Tang Dynasty, which recounts the love between Zhang Gong, a scholar, and Cui Yingying, the daughter of Cui Xiangguo, who was also living in the Puyao Temple. With the help of a servant girl, Hongniang, the two got together. Later, Zhang Gong took the examination and became a high-ranking official, but abandoned Yingying, resulting in a love tragedy. This story was adapted into a play by many literati. The Romance of the West Chamber, written by Wang Shifu, was created on these foundations.
+")
+
+    st.markdown('<p style="font-size: 25px;font-weight: 550;">The Painter 🎨</p>',
+                unsafe_allow_html=True)
+    st.markdown('Wang Shuhui',
+                unsafe_allow_html=True)
+    st.caption("Wang Shuhui (1912-1985), courtesy name Yufen, born in Tianjin, was a famous modern female painter of heavy color figures. She is good at inheriting the excellent tradition of line drawing in Chinese painting and absorbing the perspective and anatomical method of Western painting.")
 
 
 
