@@ -60,8 +60,6 @@ coll, colr = st.columns(2)
 # Example Image
 with coll:
      st.image("1-gif.gif", caption='Encounter, Room Rental, Commotion')
-    # st.video("./materials/video/1-MP4.mp4")
-    # st.caption("我也不知道为啥视频的caption加的这么下面但是好像传视频也蛮简单的")
 with colr:
      st.video("1-talk.mp4")
 #st.image(image="./assets/nst.png")
@@ -74,9 +72,9 @@ st.caption("  ")
 coll, colr = st.columns(2)
 # Example Image
 with coll:
-    st.video("2-talk.mp4")
-with colr:
     st.image("2-gif.gif", caption='情节名*3（待补充）')
+with colr:
+    st.video("2-talk.mp4")
 st.caption("In the evening, Yingying and Hongniang went to the garden to burn incense. When Zhang Sheng saw them, he recited a poem, and Yingying praised it sincerely.")
 st.caption("Soon after, Sun Feihu heard of Yingying's beauty and brought men to rob the temple. Mrs. Cui said she would betroth Yingying to the man who rescued them. Zhang Sheng succeeded in helping the temple out of trouble.")
 st.caption("Mrs. Cui invites Zhang Sheng to a banquet. Zhang Sheng is very excited as he thinks that Mrs. Cui agrees to marry him and Yingying.")
@@ -99,9 +97,9 @@ st.caption("  ")
 coll, colr = st.columns(2)
 # Example Image
 with coll:
-    st.video("4-talk.mp4")
-with colr:
     st.image("4-gif.gif", caption='情节名*3（待补充）')
+with colr:
+    st.video("4-talk.mp4")
 st.caption("Unexpectedly, Yingying could only blame Zhangsheng because Hongniang, saying that since he was already brother and sister to her, why did he come to meet her again.")
 st.caption("Zhang Sheng could not withstand this torture and was too sick to get out of bed from the next day.")
 st.caption("Worried about Zhang Sheng, Yingying asked Hongniang to send him another letter, saying she would come to see him at night. Zhang Sheng was very happy.")
@@ -120,8 +118,13 @@ st.caption("Zhang Sheng was forced to go to Chang'an to take the examination. Th
 st.caption("  ")
 st.caption("  ")
 
+# 新模块
 st.markdown("</br>", unsafe_allow_html=True)
-
+st.markdown(
+    "<b> <i> A Meeting Across Millennia? ", unsafe_allow_html=True)
+st.caption("The love between Cui Yingying and Zhang Sheng took many twists and turns, but fortunately, the lovers were finally reunited.")
+st.caption("If there was a time machine, and Cui Yingying and Zhang Sheng in Wang Shuhui's painting came to modern times, and put on the modern improved Chinese dress and traveled together in the ancient town, what kind of traces would be left behind?")
+st.caption("Perhaps they would have taken photos like this——")
 
 
 
