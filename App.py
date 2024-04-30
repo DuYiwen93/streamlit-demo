@@ -50,7 +50,7 @@ set_bg_color()
 st.markdown(
     "<b> <i> The painting has come to life! </i> </b>  &nbsp; Step into the world depicted by Wang Shuhui and immerse yourself in the story of The Romance of the Western Chamber.", unsafe_allow_html=True
 )
-
+st.caption("  ")
 
 
 
@@ -75,9 +75,8 @@ coll, colr = st.columns(2)
 # Example Image
 with coll:
     st.video("2-talk.mp4")
-    st.caption("我也不知道为啥视频的caption加的这么下面但是好像传视频也蛮简单的")
 with colr:
-    st.image("2-gif.gif", caption='我也不知道这是啥但是好像传gif就是这么简单')
+    st.image("2-gif.gif", caption='情节名*3（待补充）')
 st.caption("In the evening, Yingying and Hongniang went to the garden to burn incense. When Zhang Sheng saw them, he recited a poem, and Yingying praised it sincerely.")
 st.caption("Soon after, Sun Feihu heard of Yingying's beauty and brought men to rob the temple. Mrs. Cui said she would betroth Yingying to the man who rescued them. Zhang Sheng succeeded in helping the temple out of trouble.")
 st.caption("Mrs. Cui invites Zhang Sheng to a banquet. Zhang Sheng is very excited as he thinks that Mrs. Cui agrees to marry him and Yingying.")
@@ -87,33 +86,39 @@ st.caption("  ")
 coll, colr = st.columns(2)
 # Example Image
 with coll:
-    st.video("3-talk.mp4")
-    st.caption("我也不知道为啥视频的caption加的这么下面但是好像传视频也蛮简单的")
-#st.image(image="./assets/nst.png")
+    st.image("3-gif.gif", caption='情节名*4（待补充）')
 with colr:
-    st.image("3-gif.gif", caption='我也不知道这是啥但是好像传gif就是这么简单')
-    # st.video("./materials/video/3-MP4.mp4")
-    # st.caption("我也不知道为啥视频的caption加的这么下面但是好像传视频也蛮简单的")
+    st.video("3-talk.mp4")
+st.caption("At the banquet, however, Mrs Cui wanted Yingying to be brother and sister with Zhang Sheng. Zhang Sheng is shocked; Yingying also expresses her deep dissatisfaction.")
+st.caption("From then on, Zhang Sheng was sad and played the guqin in front of the window every night.Yingying couldn't help but shed tears as she listened it.")
+st.caption("When Zhang Sheng fell ill as a result, Yingying asked Hongniang to send a letter, hinting to Zhang Sheng that she will meet him in the garden.")
+st.caption("Hongniang is dissatisfied that Yingying did not tell her but secretly met with Zhang Sheng. That night, they went to the garden to burn incense and saw Zhang Sheng jumping off the wall.")
+st.caption("  ")
+st.caption("  ")
+
 coll, colr = st.columns(2)
 # Example Image
 with coll:
     st.video("4-talk.mp4")
-    st.caption("我也不知道为啥视频的caption加的这么下面但是好像传视频也蛮简单的")
-#st.image(image="./assets/nst.png")
 with colr:
-    st.image("4-gif.gif", caption='我也不知道这是啥但是好像传gif就是这么简单')
-    # st.video("./materials/video/4-MP4.mp4")
-    # st.caption("我也不知道为啥视频的caption加的这么下面但是好像传视频也蛮简单的")
+    st.image("4-gif.gif", caption='情节名*3（待补充）')
+st.caption("Unexpectedly, Yingying could only blame Zhangsheng because Hongniang, saying that since he was already brother and sister to her, why did he come to meet her again.")
+st.caption("Zhang Sheng could not withstand this torture and was too sick to get out of bed from the next day.")
+st.caption("Worried about Zhang Sheng, Yingying asked Hongniang to send him another letter, saying she would come to see him at night. Zhang Sheng was very happy.")
+st.caption("  ")
+st.caption("  ")
+
 coll, colr = st.columns(2)
 # Example Image
 with coll:
-    st.video("5-talk.mp4")
-    st.caption("我也不知道为啥视频的caption加的这么下面但是好像传视频也蛮简单的")
-#st.image(image="./assets/nst.png")
+    st.image("5-gif.gif", caption='情节名*3（待补充）')
 with colr:
-    st.image("5-gif.gif", caption='我也不知道这是啥但是好像传gif就是这么简单')
-    # st.video("./materials/video/5-MP4.mp4")
-    # st.caption("我也不知道为啥视频的caption加的这么下面但是好像传视频也蛮简单的")
+    st.video("5-talk.mp4")
+st.caption("At night, Yingying came and Zhang Sheng opened the door for her. The two poor lovers were finally together.")
+st.caption("Then Mrs. Cui knew about it. She tortured Hongniang, who reproached her for not keeping her word. Mrs. Cui had no choice but to ask Zhang Sheng to take the examination to become an official so that he could come back to marry Yingying.")
+st.caption("Zhang Sheng was forced to go to Chang'an to take the examination. The two lovers waved goodbye in tears. Later, Zhang Sheng successfully passed the test and eventually married Yingying.")
+st.caption("  ")
+st.caption("  ")
 
 st.markdown("</br>", unsafe_allow_html=True)
 
