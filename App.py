@@ -127,7 +127,8 @@ st.caption("If there was a time machine, and Cui Yingying and Zhang Sheng in Wan
 st.caption("Perhaps they would have taken photos like this——")
 st.image("photo.png")
 
-
+st.caption("  ")
+st.caption("We hope to make Wang Shuhui's paintings move through ai's technology, so that readers can see a vivid version of The Romance of the West Chamber and trigger deeper emotional resonance.")
 
 
 # -------------Sidebar Section------------------------------------------------
