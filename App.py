@@ -118,13 +118,14 @@ st.caption("Zhang Sheng was forced to go to Chang'an to take the examination. Th
 st.caption("  ")
 st.caption("  ")
 
-# 新模块
+# 合成图板块
 st.markdown("</br>", unsafe_allow_html=True)
 st.markdown(
     "<b> <i> A Meeting Across Millennia? ", unsafe_allow_html=True)
 st.caption("The love between Cui Yingying and Zhang Sheng took many twists and turns, but fortunately, the lovers were finally reunited.")
 st.caption("If there was a time machine, and Cui Yingying and Zhang Sheng in Wang Shuhui's painting came to modern times, and put on the modern improved Chinese dress and traveled together in the ancient town, what kind of traces would be left behind?")
 st.caption("Perhaps they would have taken photos like this——")
+st.image("5-gif.gif"
 
 
 
@@ -133,8 +134,6 @@ st.caption("Perhaps they would have taken photos like this——")
 #这一段是左侧边栏展示的内容
 #这里开始侧边栏设计
 with st.sidebar:
-    #这一一坨里面放的东西展示在最上面，呈一列展示
-    #替换掉下方引号里的中文内容 切记是中文内容，别乱删别的
     st.image(image="speed-brush.gif")
     st.markdown("</br>", unsafe_allow_html=True)
 
