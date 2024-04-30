@@ -65,9 +65,9 @@ with colr:
     st.image("1-gif.gif", caption='Encounter, Room Rental, Commotion')
     # st.video("./materials/video/1-MP4.mp4")
     # st.caption("我也不知道为啥视频的caption加的这么下面但是好像传视频也蛮简单的")
-st.caption("During the Tang Dynasty, Cui Xiangguo died, and his wife Cui and daughter Yingying took him home and lived in the Pujiu Temple on their way. When Zhang Junrui, a scholar, traveled to Chang'an to take the exams, he passed by the temple and fell in love with Yingying at first sight."
-           "Since meeting Yingying, Zhang Sheng decides to stay at the temple and asks the abbot for a room in the west chamber."
-           "Zhang Sheng met Hongniang, said: “My name is Zhang Gong, twenty-three years old, has not married. May I know if your master is married?” Hongniang turned around and left.")
+st.caption("During the Tang Dynasty, Cui Xiangguo died, and his wife Cui and daughter Yingying took him home and lived in the Pujiu Temple on their way. When Zhang Junrui, a scholar, traveled to Chang'an to take the exams, he passed by the temple and fell in love with Yingying at first sight.")
+st.caption("Since meeting Yingying, Zhang Sheng decides to stay at the temple and asks the abbot for a room in the west chamber.")
+st.caption("Zhang Sheng met Hongniang, said: “My name is Zhang Gong, twenty-three years old, has not married. May I know if your master is married?” Hongniang turned around and left.")
 
 
 coll, colr = st.columns(2)
