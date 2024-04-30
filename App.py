@@ -125,7 +125,7 @@ with st.sidebar:
 
     st.markdown('<p style="font-size: 25px;font-weight: 550;">这里放作者信息？ 🎨</p>',
                 unsafe_allow_html=True)
-    st.markdown('这里放点什么呢，简介？',
+    st.markdown('王叔晖',
                 unsafe_allow_html=True)
 
 
