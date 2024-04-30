@@ -59,7 +59,7 @@ st.caption("  ")
 coll, colr = st.columns(2)
 # Example Image
 with coll:
-     st.image("1-gif.gif", caption='Encounter, Room Rental, Commotion')
+     st.image("1-gif.gif", caption='Enchantment, Renting of Quarters, Religious Service')
 with colr:
      st.video("1-talk.mp4")
 #st.image(image="./assets/nst.png")
@@ -72,7 +72,7 @@ st.caption("  ")
 coll, colr = st.columns(2)
 # Example Image
 with coll:
-    st.image("2-gif.gif", caption='情节名*3（待补充）')
+    st.image("2-gif.gif", caption='Verse Exchange, Alarm, Invitation')
 with colr:
     st.video("2-talk.mp4")
 st.caption("In the evening, Yingying and Hongniang went to the garden to burn incense. When Zhang Sheng saw them, he recited a poem, and Yingying praised it sincerely.")
@@ -84,7 +84,7 @@ st.caption("  ")
 coll, colr = st.columns(2)
 # Example Image
 with coll:
-    st.image("3-gif.gif", caption='情节名*4（待补充）')
+    st.image("3-gif.gif", caption='The Promise Broken, The Lute, First Expectation, The Billet-Doux')
 with colr:
     st.video("3-talk.mp4")
 st.caption("At the banquet, however, Mrs Cui wanted Yingying to be brother and sister with Zhang Sheng. Zhang Sheng is shocked; Yingying also expresses her deep dissatisfaction.")
@@ -97,7 +97,7 @@ st.caption("  ")
 coll, colr = st.columns(2)
 # Example Image
 with coll:
-    st.image("4-gif.gif", caption='情节名*3（待补充）')
+    st.image("4-gif.gif", caption='Repudiation, Illness, Further Expectation')
 with colr:
     st.video("4-talk.mp4")
 st.caption("Unexpectedly, Yingying could only blame Zhangsheng because Hongniang, saying that since he was already brother and sister to her, why did he come to meet her again.")
@@ -109,7 +109,7 @@ st.caption("  ")
 coll, colr = st.columns(2)
 # Example Image
 with coll:
-    st.image("5-gif.gif", caption='情节名*3（待补充）')
+    st.image("5-gif.gif", caption='Tryst, Rose in The Dock, Farewell Feast')
 with colr:
     st.video("5-talk.mp4")
 st.caption("At night, Yingying came and Zhang Sheng opened the door for her. The two poor lovers were finally together.")
