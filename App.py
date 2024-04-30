@@ -125,7 +125,7 @@ st.markdown(
 st.caption("The love between Cui Yingying and Zhang Sheng took many twists and turns, but fortunately, the lovers were finally reunited.")
 st.caption("If there was a time machine, and Cui Yingying and Zhang Sheng in Wang Shuhui's painting came to modern times, and put on the modern improved Chinese dress and traveled together in the ancient town, what kind of traces would be left behind?")
 st.caption("Perhaps they would have taken photos like this——")
-st.image("5-gif.gif"
+st.image("photo.png")
 
 
 
