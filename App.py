@@ -123,7 +123,7 @@ with st.sidebar:
     st.image(image="speed-brush.gif")
     st.markdown("</br>", unsafe_allow_html=True)
 
-    st.markdown('<p style="font-size: 25px;font-weight: 550;">这里放作者信息？ 🎨</p>',
+    st.markdown('<p style="font-size: 25px;font-weight: 550;">王叔晖 🎨</p>',
                 unsafe_allow_html=True)
     st.markdown('王叔晖',
                 unsafe_allow_html=True)
