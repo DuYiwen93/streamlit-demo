@@ -121,7 +121,7 @@ st.markdown("</br>", unsafe_allow_html=True)
 with st.sidebar:
     #这一一坨里面放的东西展示在最上面，呈一列展示
     #替换掉下方引号里的中文内容 切记是中文内容，别乱删别的
-    st.image(image="./assets/speed-brush.gif")
+    st.image(image="speed-brush.gif")
     st.markdown("</br>", unsafe_allow_html=True)
 
     st.markdown('<p style="font-size: 25px;font-weight: 550;">这里放作者信息？ 🎨</p>',
@@ -135,27 +135,27 @@ with st.sidebar:
     #这里展开侧边栏的两列设计，example里放的是图，如果不需要两列的设计就把这一大段全部注释掉，在上面单栏的地方加内容
     col1, col2 = st.columns(2)
     with col1:
-        st.image(image="./assets/content1.jpg")
+        st.image(image="content1.jpg")
     with col2:
-        st.image(image="./assets/art1.png")
+        st.image(image="art1.png")
 
     col1, col2 = st.columns(2)
     with col1:
-        st.image(image="./assets/content2.jpg")
+        st.image(image="content2.jpg")
     with col2:
-        st.image(image="./assets/art2.png")
+        st.image(image="art2.png")
 
     col1, col2 = st.columns(2)
     with col1:
-        st.image(image="./assets/content3.jpg")
+        st.image(image="content3.jpg")
     with col2:
-        st.image(image="./assets/art3.png")
+        st.image(image="art3.png")
 
     col1, col2 = st.columns(2)
     with col1:
-        st.image(image="./assets/content4.jpg")
+        st.image(image="content4.jpg")
     with col2:
-        st.image(image="./assets/art4.png")
+        st.image(image="art4.png")
 
 
 
