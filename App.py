@@ -64,8 +64,7 @@ with coll:
     st.video("1-talk.mp4")
 #st.image(image="./assets/nst.png")
 with colr:
-    st.image("1-gif.gif", caption='During the Tang Dynasty, Cui Xiangguo died, and his wife Cui and daughter Yingying took him home and lived in the Pujiu Temple on their way. When Zhang Junrui, a scholar, traveled to Chang'an to take the exams, he passed by the temple and fell in love with Yingying at first sight.
-')
+    st.image("1-gif.gif", caption='During the Tang Dynasty, Cui Xiangguo died, and his wife Cui and daughter Yingying took him home and lived in the Pujiu Temple on their way. When Zhang Junrui, a scholar, traveled to Chang'an to take the exams, he passed by the temple and fell in love with Yingying at first sight.')
     # st.video("./materials/video/1-MP4.mp4")
     # st.caption("我也不知道为啥视频的caption加的这么下面但是好像传视频也蛮简单的")
 coll, colr = st.columns(2)
