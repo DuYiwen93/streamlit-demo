@@ -128,6 +128,7 @@ st.caption("Perhaps they would have taken photos like this——")
 st.image("photo.png")
 
 st.caption("  ")
+st.caption("  ")
 st.caption("We hope to make Wang Shuhui's paintings move through ai's technology, so that readers can see a vivid version of The Romance of the West Chamber and trigger deeper emotional resonance.")
 
 
@@ -154,11 +155,4 @@ with st.sidebar:
         st.image(image="wsh3.jpg")
     with col2:
         st.image(image="wsh2.jpg")
-
-
-
-
-
-
-
 
