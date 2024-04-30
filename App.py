@@ -12,7 +12,7 @@ st.set_page_config(page_title="The Romance of West Chamber",
 
 # -------------Header Section------------------------------------------------
 
-title = '<p style="text-align: center;font-size: 50px;font-weight: 350;font-family:Cursive "> PixelMix </p>'
+title = '<p style="text-align: center;font-size: 50px;font-weight: 350;font-family:Cursive "> The Romance of West Chamber </p>'
 st.markdown(title, unsafe_allow_html=True)
 
 # CSS来改变背景色
@@ -48,9 +48,7 @@ set_bg_color()
 #这段写引子，<b><i>xxxxxx</i></b>，xxxx部分是黑体（b）和斜体（i）举一反三
 #We 开始后面都是正文
 st.markdown(
-    "<b> <i> Create Digital Art using Machine Learning ! </i> </b>  &nbsp; We takes 2 images — Content Image & Style Image — and blends "
-    "them together so that the resulting output image retains the core elements of the content image, but appears to "
-    "be “painted” in the style of the style reference image.", unsafe_allow_html=True
+    "<b> <i> The painting has come to life! </i> </b>  &nbsp; Step into the world depicted by Wang Shuhui and immerse yourself in the story of The Romance of the Western Chamber.", unsafe_allow_html=True
 )
 
 
@@ -64,9 +62,14 @@ with coll:
     st.video("1-talk.mp4")
 #st.image(image="./assets/nst.png")
 with colr:
-    st.image("1-gif.gif", caption='During the Tang Dynasty, Cui Xiangguo died, and his wife Cui and daughter Yingying took him home and lived in the Pujiu Temple on their way. When Zhang Junrui, a scholar, traveled to Changan to take the exams, he passed by the temple and fell in love with Yingying at first sight.')
+    st.image("1-gif.gif", caption='Encounter, Room Rental, Commotion')
     # st.video("./materials/video/1-MP4.mp4")
     # st.caption("我也不知道为啥视频的caption加的这么下面但是好像传视频也蛮简单的")
+st.caption("During the Tang Dynasty, Cui Xiangguo died, and his wife Cui and daughter Yingying took him home and lived in the Pujiu Temple on their way. When Zhang Junrui, a scholar, traveled to Chang'an to take the exams, he passed by the temple and fell in love with Yingying at first sight."
+           "Since meeting Yingying, Zhang Sheng decides to stay at the temple and asks the abbot for a room in the west chamber."
+           "Zhang Sheng met Hongniang, said: “My name is Zhang Gong, twenty-three years old, has not married. May I know if your master is married?” Hongniang turned around and left.")
+
+
 coll, colr = st.columns(2)
 # Example Image
 with coll:
@@ -136,9 +139,9 @@ with st.sidebar:
     st.caption("Wang Shuhui (1912-1985), courtesy name Yufen, born in Tianjin, was a famous modern female painter of heavy color figures. She is good at inheriting the excellent tradition of line drawing in Chinese painting and absorbing the perspective and anatomical method of Western painting.")
     col1, col2 = st.columns(2)
     with col1:
-        st.image(image="wsh1.png")
+        st.image(image="wsh3.jpg")
     with col2:
-        st.image(image="wsh4.jpg")
+        st.image(image="wsh2.jpg")
 
 
 
