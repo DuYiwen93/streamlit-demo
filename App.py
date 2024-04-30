@@ -138,7 +138,7 @@ with st.sidebar:
     with col1:
         st.image(image="wsh1.png")
     with col2:
-        st.image(image="wsh2.jpg")
+        st.image(image="wsh4.jpg")
 
 
 
