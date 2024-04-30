@@ -22,7 +22,7 @@ def set_bg_color():
         f"""
         <style>
         .stApp {{
-            background-color: #F996F1;
+            background-color: #CCB075;
         }}
         </style>
         """,
