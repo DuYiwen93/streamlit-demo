@@ -69,18 +69,21 @@ st.caption("During the Tang Dynasty, Cui Xiangguo died, and his wife Cui and dau
 st.caption("Since meeting Yingying, Zhang Sheng decides to stay at the temple and asks the abbot for a room in the west chamber.")
 st.caption("Zhang Sheng met Hongniang, said: “My name is Zhang Gong, twenty-three years old, has not married. May I know if your master is married?” Hongniang turned around and left.")
 st.caption("  ")
-
+st.caption("  ")
 
 coll, colr = st.columns(2)
 # Example Image
 with coll:
     st.video("2-talk.mp4")
     st.caption("我也不知道为啥视频的caption加的这么下面但是好像传视频也蛮简单的")
-#st.image(image="./assets/nst.png")
 with colr:
     st.image("2-gif.gif", caption='我也不知道这是啥但是好像传gif就是这么简单')
-    # st.video("./materials/video/2-MP4.mp4")
-    # st.caption("我也不知道为啥视频的caption加的这么下面但是好像传视频也蛮简单的")
+st.caption("In the evening, Yingying and Hongniang went to the garden to burn incense. When Zhang Sheng saw them, he recited a poem, and Yingying praised it sincerely.")
+st.caption("Soon after, Sun Feihu heard of Yingying's beauty and brought men to rob the temple. Mrs. Cui said she would betroth Yingying to the man who rescued them. Zhang Sheng succeeded in helping the temple out of trouble.")
+st.caption("Mrs. Cui invites Zhang Sheng to a banquet. Zhang Sheng is very excited as he thinks that Mrs. Cui agrees to marry him and Yingying.")
+st.caption("  ")
+st.caption("  ")
+
 coll, colr = st.columns(2)
 # Example Image
 with coll:
