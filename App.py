@@ -127,7 +127,7 @@ with st.sidebar:
                 unsafe_allow_html=True)
     st.markdown('The Romance of West Chamber',
                 unsafe_allow_html=True)
-    st.caption("The story originated from Yuan Zhen's legendary novel ‘The Legend of Yingying’ in the Tang Dynasty, which recounts the love between Zhang Gong, a scholar, and Cui Yingying, the daughter of Cui Xiangguo, who was also living in the Puyao Temple. With the help of a servant girl, Hongniang, the two got together. Later, Zhang Gong took the examination and became a high-ranking official, but abandoned Yingying, resulting in a love tragedy. This story was adapted into a play by many literati. The Romance of the West Chamber, written by Wang Shifu, was created on these foundations.
+    st.caption("The story originated from legendary novel The Legend of Yingying in the Tang Dynasty, which recounts the love between Zhang Gong, a scholar, and Cui Yingying, the daughter of Cui Xiangguo, who was also living in the Puyao Temple. With the help of a servant girl, the two got together. Later, Zhang Gong took the examination and became a high-ranking official, but abandoned Yingying, resulting in a love tragedy. This story was adapted into a play by many literati. The Romance of the West Chamber, written by Wang Shifu, was created on these foundations.
 ")
 
     st.markdown('<p style="font-size: 25px;font-weight: 550;">The Painter 🎨</p>',
