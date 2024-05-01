@@ -45,7 +45,7 @@ set_bg_color()
 # set_video_size()
 
 
-#这段写引子，<b><i>xxxxxx</i></b>，xxxx部分是黑体（b）和斜体（i）举一反三
+#这段写引子，<b><i>xxxxxx</i></b>，xxxx部分是黑体（b）和斜体（i）
 #We 开始后面都是正文
 st.markdown(
     "<b> <i> The painting has come to life! </i> </b>  &nbsp; Step into the world depicted by Wang Shuhui and immerse yourself in the story of The Romance of the Western Chamber.", unsafe_allow_html=True
@@ -54,10 +54,8 @@ st.caption("  ")
 
 
 
-#下面这一大段是主要的展示部分，coll是左边的一列，colr是右边的一列，默认展示动图，如果太小自行在外面放大（就是把动图本身放大），别试着在网页里放大，st容器有问题，caption对应的是每一列的文字部分
-#默认展示动图，如果要展示视频就取消colr下面两行的注释，并且注释掉最上面一行
-coll, colr = st.columns(2)
-# Example Image
+#下面这一大段是主要的展示部分，coll是左边的一列，colr是右边的一列，caption对应的是每一列的文字部分
+coll, colr = st.columns([5, 3])
 with coll:
      st.image("1-gif.gif", caption='Enchantment, Renting of Quarters, Religious Service')
 with colr:
@@ -69,8 +67,7 @@ st.caption("Zhang Sheng met Hongniang, said: “My name is Zhang Gong, twenty-th
 st.caption("  ")
 st.caption("  ")
 
-coll, colr = st.columns(2)
-# Example Image
+coll, colr = st.columns([5, 3])
 with coll:
     st.image("2-gif.gif", caption='Verse Exchange, Alarm, Invitation')
 with colr:
@@ -81,8 +78,7 @@ st.caption("Mrs. Cui invites Zhang Sheng to a banquet. Zhang Sheng is very excit
 st.caption("  ")
 st.caption("  ")
 
-coll, colr = st.columns(2)
-# Example Image
+coll, colr = st.columns([5, 3])
 with coll:
     st.image("3-gif.gif", caption='The Promise Broken, The Lute, First Expectation, The Billet-Doux')
 with colr:
@@ -94,8 +90,7 @@ st.caption("Hongniang is dissatisfied that Yingying did not tell her but secretl
 st.caption("  ")
 st.caption("  ")
 
-coll, colr = st.columns(2)
-# Example Image
+coll, colr = st.columns([5, 3])
 with coll:
     st.image("4-gif.gif", caption='Repudiation, Illness, Further Expectation')
 with colr:
@@ -106,8 +101,7 @@ st.caption("Worried about Zhang Sheng, Yingying asked Hongniang to send him anot
 st.caption("  ")
 st.caption("  ")
 
-coll, colr = st.columns(2)
-# Example Image
+coll, colr = st.columns([5, 3])
 with coll:
     st.image("5-gif.gif", caption='Tryst, Rose in The Dock, Farewell Feast')
 with colr:
@@ -156,3 +150,14 @@ with st.sidebar:
     with col2:
         st.image(image="wsh2.jpg")
 
+
+# -------------Sidebar Section------------------------------------------------
+#这一段是图片来源及制作原理说明
+st.markdown(
+    "<b> <i> References & Technique Explanation ", unsafe_allow_html=True)
+st.caption("Image sources: http://www.360doc.com/content/15/1005/03/2066648_503330304.shtml.")
+st.caption("Text sources: https://www.dedao.cn/ebook/detail?id=VEDA2bKO27MKbRardAGJ1N4ln9BLVwg5xmW8ZQyXmYqg5PpkEjxovze6DB84dpj6")
+st.caption("Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets. https://arxiv.org/abs/2311.15127.")
+st.caption("DreamTalk: When Expressive Talking Head Generation Meets Diffusion Probabilistic Models. https://arxiv.org/abs/2312.09767.")
+st.caption("OMG: Occlusion-friendly Personalized Multi-concept Generation In Diffusion Models. https://arxiv.org/abs/2403.10983. ")
+st.caption("Web Template: https://github.com/deepeshdm/Realtime_Face_Detection")
