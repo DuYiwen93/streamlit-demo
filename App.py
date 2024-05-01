@@ -124,7 +124,8 @@ st.image("photo.png")
 st.caption("  ")
 st.caption("  ")
 st.caption("We hope to make Wang Shuhui's paintings move through ai's technology, so that readers can see a vivid version of The Romance of the West Chamber and trigger deeper emotional resonance.")
-
+st.caption("  ")
+st.caption("  ")
 
 # -------------Sidebar Section------------------------------------------------
 #这一段是左侧边栏展示的内容
