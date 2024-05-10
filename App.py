@@ -6,7 +6,6 @@ from io import BytesIO
 #from API import transfer_style
 
 
-#这里改标题，page title后面的引号内容是标题，icon里面是网页标志
 st.set_page_config(page_title="The Romance of West Chamber",
                    page_icon="./assets/favicon.png", layout="centered")
 
@@ -15,8 +14,6 @@ st.set_page_config(page_title="The Romance of West Chamber",
 title = '<p style="text-align: center;font-size: 50px;font-weight: 350;font-family:Cursive "> The Romance of West Chamber </p>'
 st.markdown(title, unsafe_allow_html=True)
 
-# CSS来改变背景色
-#https://htmlcolorcodes.com/zh/ 这个网站上找一个想要的背景色把井号的代码复制到下面这一小段的background color后面
 def set_bg_color():
     st.markdown(
         f"""
@@ -46,7 +43,6 @@ set_bg_color()
 
 
 #这段写引子，<b><i>xxxxxx</i></b>，xxxx部分是黑体（b）和斜体（i）
-#We 开始后面都是正文
 st.markdown(
     "<b> <i> The painting has come to life! </i> </b>  &nbsp; Step into the world depicted by Wang Shuhui and immerse yourself in the story of The Romance of the Western Chamber.", unsafe_allow_html=True
 )
@@ -54,7 +50,7 @@ st.caption("  ")
 
 
 
-#下面这一大段是主要的展示部分，coll是左边的一列，colr是右边的一列，caption对应的是每一列的文字部分
+#主体展示部分，coll是左边的一列，colr是右边的一列，caption对应的是每一列的文字部分
 coll, colr = st.columns([5, 3])
 with coll:
      st.image("1-gif.gif", caption='Enchantment, Renting of Quarters, Religious Service')
@@ -128,8 +124,7 @@ st.caption("  ")
 st.caption("  ")
 
 # -------------Sidebar Section------------------------------------------------
-#这一段是左侧边栏展示的内容
-#这里开始侧边栏设计
+#左侧边栏展示部分
 with st.sidebar:
     st.image(image="speed-brush.gif")
     st.markdown("</br>", unsafe_allow_html=True)
@@ -153,7 +148,7 @@ with st.sidebar:
 
 
 # -------------Sidebar Section------------------------------------------------
-#这一段是图片来源及制作原理说明
+#素材来源及制作原理说明
 st.markdown(
     "<b> <i> References & Technique Explanation ", unsafe_allow_html=True)
 st.caption("Image sources: http://www.360doc.com/content/15/1005/03/2066648_503330304.shtml.")
